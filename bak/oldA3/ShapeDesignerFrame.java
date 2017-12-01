@@ -22,7 +22,8 @@
 // local to the paintComponent method...
 // works fine with sloppy static methods. argh.
 
-import java.awt.BorderLayout;
+import java.awt.GridBagLayout;
+import java.awt.GridBagConstraints;
 import java.awt.Component;
 import java.awt.event.ActionListener; // to handle events
 import java.awt.event.ActionEvent; // to create event objects
@@ -207,7 +208,7 @@ public class ShapeDesignerFrame extends JFrame {
         textMenu.add(colorMenu);
         textMenu.addSeparator();
 
-        // create sub menu BACKGROUND COLOR:
+        // create sub menu Background:
         String[] backgrounds = {"White", "Cyan", "Yellow", "Light_Gray"};
         JMenu backgroundMenu = new JMenu("Background");
         backgroundMenu.setMnemonic('B');
@@ -232,10 +233,6 @@ public class ShapeDesignerFrame extends JFrame {
         // finally, add textMenu to the main bar. drawMenu is already in there...
         bar.add(textMenu);
 
-        // intialize results area:
-        resultTextArea = new JTextArea(20, 50);
-        resultTextArea.setEditable(false);
-
         // add the mouse listener:
         addMouseListener(new MouseClickHandler());
         addMouseMotionListener(
@@ -247,6 +244,9 @@ public class ShapeDesignerFrame extends JFrame {
                 }
             }
         );
+
+        // intialize results area:
+        resultTextArea = new JTextArea(20, 50);
 
         // init graphics context:
         drawShapePanel = new DrawShapePanel();
@@ -288,11 +288,14 @@ public class ShapeDesignerFrame extends JFrame {
     * addAllElements then adds all of the GUI components to the frame:
     */
     private void addAllElements() {
-        add(drawShapePanel, BorderLayout.CENTER);
-        add(resultTextArea, BorderLayout.NORTH);
+        add(drawShapePanel, BorderLayout.NORTH);
+        add(resultTextArea, BorderLayout.CENTER);
         add(shapeComboBox, BorderLayout.SOUTH);
-        // add(changeColorButton, BorderLayout.SOUTH);
-        // add(fillCheckBox, BorderLayout.SOUTH);
+        add(changeColorButton, BorderLayout.SOUTH);
+        add(fillCheckBox, BorderLayout.SOUTH);
+
+        // set Circle as default upon opening application:
+        showRadiusOnly();
     }
 
     // I'm not positive this a good design, making shapeComboBox static?
@@ -310,9 +313,11 @@ public class ShapeDesignerFrame extends JFrame {
             // create shape in order to
             circle = new Circle(xPos, yPos, r, color, filled);
             // display its dimensions:
-            String result = String.format(
-                "%s%n%.2f%n%.2f", circle.getName(), circle.getArea(), circle.getPerimeter());
-            resultTextArea.setText(result);
+            shapeIsResultLabel.setText(circle.getName());
+            areaIsResultLabel.setText(
+                String.format("%.2f", circle.getArea()));
+            perimeterIsResultLabel.setText(
+                String.format("%.2f", circle.getPerimeter()));
             // draw it:
             repaint();
         } catch (NumberFormatException e) {
@@ -322,9 +327,11 @@ public class ShapeDesignerFrame extends JFrame {
     public void setRectangle() throws NumberFormatException {
         try {
             rectangle = new Rectangle(xPos, yPos, w, h, color, filled);
-            String result = String.format(
-                "%s%n%.2f%n%.2f", rectangle.getName(), rectangle.getArea(), rectangle.getPerimeter());
-            resultTextArea.setText(result);
+            shapeIsResultLabel.setText(rectangle.getName());
+            areaIsResultLabel.setText(
+                String.format("%.2f", rectangle.getArea()));
+            perimeterIsResultLabel.setText(
+                String.format("%.2f", rectangle.getPerimeter()));
             repaint();
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(null, "Error. Height and width must be numeric.");
@@ -333,9 +340,11 @@ public class ShapeDesignerFrame extends JFrame {
     public void setSquare() throws NumberFormatException {
         try {
             square = new Square(xPos, yPos, s, color, filled);
-            String result = String.format(
-                "%s%n%.2f%n%.2f", square.getName(), square.getArea(), square.getPerimeter());
-            resultTextArea.setText(result);
+            shapeIsResultLabel.setText(square.getName());
+            areaIsResultLabel.setText(
+                String.format("%.2f", square.getArea()));
+            perimeterIsResultLabel.setText(
+                String.format("%.2f", square.getPerimeter()));
             repaint();
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(null, "Error. Side must be numeric.");
