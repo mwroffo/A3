@@ -1,0 +1,1319 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"radiu",
+				"radiusLabel"
+			],
+			[
+				"Shape",
+				"ShapeDesignerFrame"
+			],
+			[
+				"Sh",
+				"ShapeDesignerFrame"
+			],
+			[
+				"radius",
+				"radiusTextField"
+			],
+			[
+				"shap",
+				"shapeIsResultLabel"
+			],
+			[
+				"font",
+				"fontHandler"
+			],
+			[
+				"JText",
+				"JTextArea"
+			],
+			[
+				"is",
+				"isSelected"
+			],
+			[
+				"style",
+				"styleItems"
+			],
+			[
+				"ACtion",
+				"ActionListener"
+			],
+			[
+				"get",
+				"getShapeComboBox"
+			],
+			[
+				"J",
+				"JCheckBox"
+			],
+			[
+				"JCh",
+				"JCheckBoxMenuItem"
+			],
+			[
+				"fon",
+				"fontMenu"
+			],
+			[
+				"backgr",
+				"backgroundItems"
+			],
+			[
+				"background",
+				"backgroundButtonGroup"
+			],
+			[
+				"set",
+				"setMnemonic"
+			],
+			[
+				"item",
+				"itemHandler"
+			],
+			[
+				"shape",
+				"shapeButtonGroup"
+			],
+			[
+				"tex",
+				"textMenu"
+			],
+			[
+				"Jm",
+				"JMenuBar"
+			],
+			[
+				"getColor",
+				"getColorFromChooser"
+			],
+			[
+				"Item",
+				"ItemListener"
+			],
+			[
+				"fill",
+				"fillCheckBox"
+			],
+			[
+				"f",
+				"fillCheckBox"
+			],
+			[
+				"SHap",
+				"ShapeDesignerFrame"
+			],
+			[
+				"clear",
+				"clearResultFields"
+			],
+			[
+				"height",
+				"heightTextField"
+			],
+			[
+				"heig",
+				"heightTextField"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"design",
+				"designShapesPanel"
+			],
+			[
+				"draw",
+				"drawShapePanel"
+			],
+			[
+				"Draw",
+				"DrawOvalGUI"
+			],
+			[
+				"Oval",
+				"OvalPanel"
+			],
+			[
+				"DRaw",
+				"DrawOval"
+			],
+			[
+				"Dr",
+				"DrawOval"
+			],
+			[
+				"shpa",
+				"shapeIsResultLabel"
+			],
+			[
+				"peri",
+				"perimeterIsResultLabel"
+			],
+			[
+				"box",
+				"boxStatus"
+			],
+			[
+				"he",
+				"heightTextField"
+			],
+			[
+				"width",
+				"widthTextField"
+			],
+			[
+				"radi",
+				"radiusTextField"
+			],
+			[
+				"rai",
+				"radiusTextField"
+			],
+			[
+				"radis",
+				"radiusTextField"
+			],
+			[
+				"clearButto",
+				"clearButtonHandler"
+			],
+			[
+				"recn",
+				"rectangleHandler"
+			],
+			[
+				"Recn",
+				"RectangleSelectedHandler"
+			],
+			[
+				"Cirlc",
+				"CircleSelectedHandler"
+			],
+			[
+				"Squ",
+				"SquareSelectedHandler"
+			],
+			[
+				"Rec",
+				"RectangleSelectedHandler"
+			],
+			[
+				"Exit",
+				"ExitButtonHandler"
+			],
+			[
+				"exit",
+				"exitButtonHandler"
+			],
+			[
+				"Clear",
+				"ClearButtonHandler"
+			],
+			[
+				"getButton",
+				"getButtonHandler"
+			],
+			[
+				"eixt",
+				"exitButton"
+			],
+			[
+				"text",
+				"textArea1"
+			],
+			[
+				"JTe",
+				"JTextField"
+			],
+			[
+				"jText",
+				"JTextArea"
+			],
+			[
+				"Grid",
+				"GridBagLayout"
+			],
+			[
+				"areais",
+				"areaIsResultLabel"
+			],
+			[
+				"shapeis",
+				"shapeIsResultLabel"
+			],
+			[
+				"side",
+				"sideTextField"
+			],
+			[
+				"wi",
+				"widthLabel"
+			],
+			[
+				"add",
+				"addComponent"
+			],
+			[
+				"result",
+				"resultLabel"
+			],
+			[
+				"input",
+				"inputDataLabel"
+			],
+			[
+				"choo",
+				"chooseShapeLabel"
+			],
+			[
+				"com",
+				"shapeComboBox"
+			],
+			[
+				"Gri",
+				"GridBagConstraints"
+			],
+			[
+				"diameter",
+				"diameterJSlider"
+			],
+			[
+				"Change",
+				"ChangeListener"
+			],
+			[
+				"dia",
+				"diameterJSlider"
+			],
+			[
+				"buttons",
+				"buttonsJPanel"
+			],
+			[
+				"label",
+				"labelJPanel"
+			],
+			[
+				"labels",
+				"labelsContainer"
+			],
+			[
+				"lab",
+				"labelsLayout"
+			],
+			[
+				"gall",
+				"gallonsLabel"
+			],
+			[
+				"galon",
+				"gallonsTextField"
+			],
+			[
+				"Nu",
+				"NumberFormatException"
+			],
+			[
+				"miles",
+				"milesTextField"
+			],
+			[
+				"gal",
+				"gallonsTextField"
+			],
+			[
+				"cle",
+				"clearButton"
+			],
+			[
+				"calc",
+				"calcButton"
+			],
+			[
+				"mile",
+				"milesTextField"
+			],
+			[
+				"Button",
+				"ButtonHandler"
+			],
+			[
+				"galls",
+				"gallonsTextField"
+			],
+			[
+				"pla",
+				"plainJRadioButton"
+			],
+			[
+				"bold",
+				"boldItalicJRadioButton"
+			],
+			[
+				"ital",
+				"italicJRadioButton"
+			],
+			[
+				"radio",
+				"radioGroup"
+			],
+			[
+				"boldItalic",
+				"boldItalicJRadioButton"
+			],
+			[
+				"pl",
+				"plainJRadioButton"
+			],
+			[
+				"act",
+				"ActionEvent"
+			],
+			[
+				"fac",
+				"fancyJButton"
+			],
+			[
+				"fan",
+				"fancyJButton"
+			],
+			[
+				"goog",
+				"googleLatAndLong"
+			],
+			[
+				"info",
+				"infoWindowOptions"
+			],
+			[
+				"des",
+				"destLongRads"
+			],
+			[
+				"dest",
+				"destLatRads"
+			],
+			[
+				"meth",
+				"method2"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"likes",
+				"likesString"
+			],
+			[
+				"random",
+				"randomWords"
+			],
+			[
+				"song",
+				"songTextInput"
+			],
+			[
+				"head",
+				"head\tTag"
+			],
+			[
+				"sub",
+				"subtitle-text"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"getDate",
+				"getDateCreated"
+			],
+			[
+				"Re",
+				"RectangleClient"
+			],
+			[
+				"search",
+				"searchEmployee"
+			],
+			[
+				"prompt",
+				"promptPay"
+			],
+			[
+				"hours",
+				"hoursPerWeek"
+			],
+			[
+				"phon",
+				"phoneNumber"
+			],
+			[
+				"empl",
+				"employeeToDelete"
+			],
+			[
+				"promp",
+				"promptDelEmp"
+			],
+			[
+				"ge",
+				"generateID"
+			],
+			[
+				"company",
+				"companyAnnualBudgetForSalaries"
+			],
+			[
+				"la",
+				"lastName"
+			],
+			[
+				"first",
+				"firstName"
+			],
+			[
+				"de",
+				"department"
+			],
+			[
+				"po",
+				"positionNumber"
+			],
+			[
+				"em",
+				"employeeID"
+			],
+			[
+				"round",
+				"RoundOutcome"
+			],
+			[
+				"sc",
+				"SCISSORS"
+			],
+			[
+				"PAPER",
+				"PAPER"
+			],
+			[
+				"u",
+				"userWins"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Shape.java",
+			"settings":
+			{
+				"buffer_size": 841,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "GeometricObject.java",
+			"settings":
+			{
+				"buffer_size": 1245,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Square.java",
+			"settings":
+			{
+				"buffer_size": 1520,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "DrawShapePanel.java",
+			"settings":
+			{
+				"buffer_size": 3730,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ShapeDesignerFrame.java",
+			"settings":
+			{
+				"buffer_size": 23000,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Circle.java",
+			"settings":
+			{
+				"buffer_size": 1714,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Rectangle.java",
+			"settings":
+			{
+				"buffer_size": 1760,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/Users/_mexus/.bash_rc",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"date",
+				"InsertDate: Default"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"insert",
+				"InsertDate: Default"
+			],
+			[
+				"",
+				":w - Save"
+			],
+			[
+				"insertDate",
+				"InsertDate: Default"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":s",
+				":w - Save"
+			],
+			[
+				"pro",
+				"Project: Add Folder"
+			],
+			[
+				"buidl",
+				"Build: Cancel"
+			],
+			[
+				"pytohn",
+				"Set Syntax: Python"
+			],
+			[
+				"about",
+				"About"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"open ever",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"evernote: send to",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: enable package",
+				"Package Control: Enable Package"
+			],
+			[
+				"package control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"evernote",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 368.0,
+		"history":
+		[
+			"python --version",
+			"import argparse",
+			"import stdio",
+			"a",
+			"a = 1",
+			"python",
+			"sublime.version()",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/_mexus/Documents/code/forks/SwingPrograms/Programs-in-Swing-Java/jprogressbar.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A3/ShapeDesignerFrame.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/13/ShapesJPanel.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A3/Square.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A3/Rectangle.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A3/Circle.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A3/GeometricObject.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A3/Shape.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A3/DrawShapePanel.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/CA4/OvalPanel.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A3/DrawShapesFrame.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A3/Rectangle.class",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A2/GUI.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A3/GraphicsPanel.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A2/GUITest.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/CA4/DrawOvalGUI.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A3/ShapeGUI.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/CA4/DrawOvalClient.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A2/Square.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A2/Rectangle.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A2/Circle.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A2/GeometricObject.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A2/Shape.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/CA3/MilesPerGallonCalc.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A2/GridBagFrame.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A2/GridBagFrameTest.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A2/TriangleWithException.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/22/OvalPanel.java/OvalPanel.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/22/OvalPanel.java/SliderFrame.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/22/OvalPanel.java/SliderTest.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/CA3/git_add-*-commit-push.sh",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/CA3/MilesPerGallonCalcTest.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/CA3/MilesPerGallonCalc.bak.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/CA3/MilesPerGallonCalc.sublime-project",
+		"/usr/libexec/makewhatis",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/ButtonFrame/ButtonFrame.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A1/IllegalTriangleException.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A1/TriangleWithException.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/TextFieldFrame/TextFieldFrame.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/LabelFrame/LabelFrame.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A1/IllegalTriangleException.class",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/ComboBoxFrame/ComboBoxFrameTest.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/ComboBoxFrame/ComboBoxFrame.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/RadioButtonFrame/RadioButtonFrame.java",
+		"/Users/_mexus/Desktop/citation-51971720.txt",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/CheckBoxFrame.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/CheckBoxTest.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/ButtonFrame.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/ButtonTest.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/MyNameIs.java",
+		"/Users/_mexus/.bash_profile",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/TextFieldFrameTest.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/TextFieldFrame.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/LabelFrame.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/12/LabelFrameTest.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A1/Shape.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A1/GeometricObject.java",
+		"/Users/_mexus/Documents/code/html/headFirstProjects/html5programming/5/googlemap.html",
+		"/Users/_mexus/Documents/code/html/headFirstProjects/html5programming/5/geo.html",
+		"/Users/_mexus/Documents/code/html/headFirstProjects/html5programming/3/playlist.js",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/11/UsingChainedExceptions.java",
+		"/Users/_mexus/Documents/code/html/headFirstProjects/html5programming/3/playlist_store.js",
+		"/Users/_mexus/Documents/code/html/headFirstProjects/html5programming/3/form.html",
+		"/Users/_mexus/Documents/code/html/TrueTube/index.html",
+		"/Users/_mexus/Documents/code/html/templates/carousel.html",
+		"/Users/_mexus/Documents/code/html/TrueTube/css/style.css",
+		"/Users/_mexus/Documents/code/html/bootstrap-template.html",
+		"/Users/_mexus/Documents/code/html/TrueTube/starter.html",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/A1/ShapeTest.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/10/PointingDevice.java",
+		"/Users/_mexus/Desktop/Taylor Swift.htm",
+		"/Users/_mexus/Documents/code/FastCards/readme.txt",
+		"/Users/_mexus/Library/Application Support/Sublime Text 3/Packages/InsertDate/insert_date.py",
+		"/Users/_mexus/.bashrc",
+		"/Users/_mexus/Documents/code/html/michaelroffo.net/tutoring/index.html",
+		"/Users/_mexus/bin/helloworld.sh",
+		"/Users/_mexus/bin/index.html",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/CA1/RectangleClient.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/CA1/Rectangle.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/9/9notes.java",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/8/8.1notes.java",
+		"/Users/_mexus/Documents/code/html/michaelroffo.net/index.html",
+		"/Users/_mexus/Documents/code/html/michaelroffo.net/style.css",
+		"/Users/_mexus/Documents/code/html/michaelroffo.net/stories/lute_player.html",
+		"/Users/_mexus/Documents/code/html/michaelroffo.net/essays/boss.html",
+		"/Library/Perl/5.18/darwin-thread-multi-2level/Bundle/Makefile.subs.pl",
+		"/Users/_mexus/Documents/schoolDocs/AcademicArchives/MCC/csc252/P6_EmployeeInformationSystem/EmployeeClient.java",
+		"/Users/_mexus/Documents/schoolDocs/AcademicArchives/MCC/csc252/P6_EmployeeInformationSystem/BasicInfo.java",
+		"/Users/_mexus/Documents/schoolDocs/Intro to Comp Security/A1/roffoA1.txt",
+		"/Users/_mexus/Documents/schoolDocs/AcademicArchives/MCC/csc252/P6_EmployeeInformationSystem/BasicInfo.class",
+		"/Users/_mexus/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/_mexus/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/_mexus/Documents/schoolDocs/ProgrammingIII/11/DivideByZeroWithExceptionHandling.java",
+		"/Users/_mexus/Documents/code/python/integtest.py",
+		"/Users/_mexus/Documents/code/python/2_3_crude_integration.py",
+		"/Users/_mexus/Documents/code/html/boostrap-dropdown/boostrap-dropdown.html",
+		"/Users/_mexus/Desktop/test.java",
+		"/Users/_mexus/Desktop/index.html",
+		"/Users/_mexus/Documents/schoolDocs/csc252/P6_EmployeeInformationSystem/SalaryCalc.java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/P6_EmployeeInformationSystem/HoursAndSalary.java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/P6_EmployeeInformationSystem/GenerateID.java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/P6_EmployeeInformationSystem/BasicInfo.java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/P6_EmployeeInformationSystem/EmployeeClient.java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/10/PolymorphismTest.java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/08/examples/CourseDemo(1).java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/08/examples/TextBook(1).java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/08/examples/Instructor(1).java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/08/examples/Course(1).java",
+		"/Users/_mexus/Documents/code/html/sickmixes.net/index.html",
+		"/Users/_mexus/Documents/schoolDocs/csc252/P6_EmployeeInformationSystem/data/jsmith.txt",
+		"/Users/_mexus/Documents/schoolDocs/csc252/05/LetterGrades/LetterGrades.java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/08/Book.java",
+		"/Users/_mexus/Documents/schoolDocs/Archive/CS110/assignmentsArchive/project4/ring_buffer.py",
+		"/Users/_mexus/Documents/schoolDocs/Archive/CS110/assignmentsArchive/project4/guitar_string.py",
+		"/Users/_mexus/Documents/schoolDocs/Archive/CS110/assignmentsArchive/project4/guitar_sound_synthesis.py",
+		"/Users/_mexus/Documents/code/python/matplothisto.py",
+		"/Users/_mexus/Documents/schoolDocs/csc252/07/MoarArrays.java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/07/enum_howto.java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/07/ArrayListCollection.java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/07/2ArrayManipulations.java",
+		"/usr/libexec/java_home",
+		"/Users/_mexus/Documents/schoolDocs/csc252/07/ArrayManipulations.java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/07/RofofoArray.java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/07/InitArray.java",
+		"/Users/_mexus/Documents/schoolDocs/csc252/07/dispIntArray.java",
+		"/Users/_mexus/.bash_profile.pysave",
+		"/Users/_mexus/.profile",
+		"/Users/_mexus/Finder"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 110.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"this.filled",
+			"this",
+			"this.filled",
+			"isfilled",
+			"checkbox",
+			"fillcheckbox",
+			"checkbox",
+			"fill",
+			"color",
+			"setcolor",
+			"color",
+			"Shape",
+			"filled",
+			"color",
+			"textfield",
+			"sidet",
+			"fontlistener",
+			"size",
+			"sizse",
+			"fontNames",
+			"fonts",
+			"fontNames",
+			"fonts",
+			"fontNames",
+			"styles",
+			"radio",
+			"font",
+			"fontItems",
+			"size",
+			"currentFontName",
+			"size",
+			"currentFontNamesize",
+			"styleItems",
+			"currentFontNamesize",
+			"fonts[i], style, size",
+			"style",
+			"fonthandler",
+			"itemhandler",
+			"fonthandler",
+			"style",
+			"itemlistener",
+			"fontItems",
+			"fontMenu",
+			"fontmenu",
+			"font",
+			"mouse",
+			"shapedesignerframe.this",
+			"this",
+			"repaint",
+			"setcolor",
+			"String",
+			"color",
+			"String",
+			"fillcheck",
+			"isselected",
+			":\n",
+			"itemhandler",
+			"shapes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"12",
+			"fontNames"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Shape.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								839,
+								839
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "GeometricObject.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								373,
+								373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Square.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								424,
+								424
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 78.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "DrawShapePanel.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 2.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "ShapeDesignerFrame.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19094,
+								19102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 7.0,
+						"translation.y": 11652.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "Circle.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1714,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 76.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "Rectangle.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								416,
+								416
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 134.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/_mexus/.bash_rc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.384932454427,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.303245907738,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "A3.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"style",
+				"~/Documents/code/html/feelslikethis.net/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/schoolDocs/AcademicArchives/MCC/csc252/P6EmployeeSystem.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 3,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
