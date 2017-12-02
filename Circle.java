@@ -8,9 +8,9 @@ public class Circle extends GeometricObject {
     @Override
     public void draw(Graphics g) {
         if (!isFilled())
-            g.drawOval(50, 50, (int)this.getRadius(), (int)this.getRadius());
+            g.drawOval(this.getXPos0(), this.getYPos0(), (int)this.getRadius(), (int)this.getRadius());
         else
-            g.fillOval(50, 50, (int)this.getRadius(), (int)this.getRadius());
+            g.fillOval(this.getXPos0(), this.getYPos0(), (int)this.getRadius(), (int)this.getRadius());
     }
 
     // constructors:
@@ -25,6 +25,8 @@ public class Circle extends GeometricObject {
         double radius, Color color, boolean filled) {
         super();
         this.radius = radius;
+        setXPos0(xPos);
+        setYPos0(yPos);
         setColor(color);
         setFilled(filled);        
     }

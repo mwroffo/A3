@@ -8,9 +8,9 @@ public class Rectangle extends GeometricObject {
     @Override
     public void draw(Graphics g) {
         if (!isFilled())
-            g.drawRect(50, 50, (int)this.getW(), (int)this.getH());
+            g.drawRect(this.getXPos0(), this.getYPos0(), (int)this.getW(), (int)this.getH());
         else
-            g.fillRect(50, 50, (int)this.getW(), (int)this.getH());
+            g.fillRect(this.getXPos0(), this.getYPos0(), (int)this.getW(), (int)this.getH());
     }
 
     // constructors:
@@ -27,6 +27,8 @@ public class Rectangle extends GeometricObject {
         super();
         this.width = width;
         this.height = height;
+        setXPos0(xPos);
+        setYPos0(yPos);
         setColor(color);
         setFilled(filled);
     }

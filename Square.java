@@ -9,9 +9,9 @@ public class Square extends GeometricObject {
     @Override
     public void draw(Graphics g) {
         if (!isFilled())
-            g.drawRect(50, 50, (int)this.getSide(), (int)this.getSide());
+            g.drawRect(this.getXPos0(), this.getYPos0(), (int)this.getSide(), (int)this.getSide());
         else
-            g.fillRect(50, 50, (int)this.getSide(), (int)this.getSide());
+            g.fillRect(this.getXPos0(), this.getYPos0(), (int)this.getSide(), (int)this.getSide());
     }
 
     // constructors:
@@ -25,6 +25,8 @@ public class Square extends GeometricObject {
         double side, Color c, boolean filled) {
         super();
         this.side = side;
+        setXPos0(xPos);
+        setYPos0(yPos);
         setColor(c);
         setFilled(filled);
     }

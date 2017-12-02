@@ -23,6 +23,8 @@
 // works fine with sloppy static methods. argh.
 
 import java.awt.BorderLayout;
+import java.awt.GridBagLayout;
+import java.awt.GridBagConstraints;
 import java.awt.Component;
 import java.awt.event.ActionListener; // to handle events
 import java.awt.event.ActionEvent; // to create event objects
@@ -79,7 +81,8 @@ public class ShapeDesignerFrame extends JFrame {
 
     private static JTextArea resultTextArea;
 
-    private static BorderLayout layout;
+    private static GridBagConstraints constraints;
+    private static GridBagLayout layout;
 
     private Circle circle;
     private Rectangle rectangle;
@@ -87,7 +90,7 @@ public class ShapeDesignerFrame extends JFrame {
 
     private DrawShapePanel drawShapePanel;
 
-    private static int xPos, yPos, r, w, h, s;
+    private static int xPos, yPos, xPos0, yPos0, r, w, h, s;
 
     private static Color color = Color.BLACK;
 
@@ -98,7 +101,8 @@ public class ShapeDesignerFrame extends JFrame {
     public ShapeDesignerFrame() {
         // assemble layout:
         super("Drawing Shapes and Displaying all Info");
-        layout = new BorderLayout();
+        layout = new GridBagLayout();
+        constraints = new GridBagConstraints();
         setLayout(layout);
         buildAllElements();
         addAllElements();
@@ -236,18 +240,6 @@ public class ShapeDesignerFrame extends JFrame {
         resultTextArea = new JTextArea(20, 50);
         resultTextArea.setEditable(false);
 
-        // add the mouse listener:
-        addMouseListener(new MouseClickHandler());
-        addMouseMotionListener(
-            new MouseMotionAdapter() {
-                @Override
-                public void mouseDragged(MouseEvent event) {
-                    String s = String.format("%d, %d", event.getX(), event.getY());
-                    resultTextArea.setText(s);
-                }
-            }
-        );
-
         // init graphics context:
         drawShapePanel = new DrawShapePanel();
 
@@ -288,11 +280,14 @@ public class ShapeDesignerFrame extends JFrame {
     * addAllElements then adds all of the GUI components to the frame:
     */
     private void addAllElements() {
-        add(drawShapePanel, BorderLayout.CENTER);
-        add(resultTextArea, BorderLayout.NORTH);
-        add(shapeComboBox, BorderLayout.SOUTH);
-        // add(changeColorButton, BorderLayout.SOUTH);
-        // add(fillCheckBox, BorderLayout.SOUTH);
+        constraints.weightx = 1;
+        constraints.fill = GridBagConstraints.BOTH;
+        addComponent(resultTextArea, 1, 0, 3, 1);
+        addComponent(shapeComboBox, 2, 0, 1, 1);
+        addComponent(changeColorButton, 2, 1, 1, 1);
+        addComponent(fillCheckBox, 2, 2, 1, 1);
+        constraints.weighty = 1;
+        addComponent(drawShapePanel, 0, 0, 3, 1);
     }
 
     // I'm not positive this a good design, making shapeComboBox static?
@@ -303,15 +298,25 @@ public class ShapeDesignerFrame extends JFrame {
     public static JComboBox getShapeComboBox() {
         return shapeComboBox;
     }
-
+    private void addComponent(Component component,
+        int row, int column, int width, int height) {
+        constraints.gridx = column;
+        constraints.gridy = row;
+        constraints.gridwidth = width;
+        constraints.gridheight = height;
+        layout.setConstraints(component, constraints);
+        add(component);
+    }
     // THESE METHODS CREATE SHAPES, DRAW THE SHAPE, AND HANDLE EXCEPTIONS: 
     public void setCircle() throws NumberFormatException {
         try {
             // create shape in order to
-            circle = new Circle(xPos, yPos, r, color, filled);
+            circle = new Circle(DrawShapePanel.getXPos0(), DrawShapePanel.getYPos0(), r, color, filled);
             // display its dimensions:
             String result = String.format(
-                "%s%n%.2f%n%.2f", circle.getName(), circle.getArea(), circle.getPerimeter());
+                "%s%nArea: %.2f%nPerimeter: %.2f%nxPos0 = %d%nyPos0 = %d",
+                circle.getName(), circle.getArea(), circle.getPerimeter(),
+                xPos0, yPos0);
             resultTextArea.setText(result);
             // draw it:
             repaint();
@@ -321,9 +326,9 @@ public class ShapeDesignerFrame extends JFrame {
     }
     public void setRectangle() throws NumberFormatException {
         try {
-            rectangle = new Rectangle(xPos, yPos, w, h, color, filled);
+            rectangle = new Rectangle(DrawShapePanel.getYPos0(), DrawShapePanel.getXPos0(), w, h, color, filled);
             String result = String.format(
-                "%s%n%.2f%n%.2f", rectangle.getName(), rectangle.getArea(), rectangle.getPerimeter());
+                "%s%n%Area: %.2f%nPerimeter: %.2f", rectangle.getName(), rectangle.getArea(), rectangle.getPerimeter());
             resultTextArea.setText(result);
             repaint();
         } catch (NumberFormatException e) {
@@ -332,16 +337,15 @@ public class ShapeDesignerFrame extends JFrame {
     }
     public void setSquare() throws NumberFormatException {
         try {
-            square = new Square(xPos, yPos, s, color, filled);
+            square = new Square(DrawShapePanel.getYPos0(), DrawShapePanel.getXPos0(), s, color, filled);
             String result = String.format(
-                "%s%n%.2f%n%.2f", square.getName(), square.getArea(), square.getPerimeter());
+                "%s%n%Area: %.2f%nPerimeter: %.2f", square.getName(), square.getArea(), square.getPerimeter());
             resultTextArea.setText(result);
             repaint();
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(null, "Error. Side must be numeric.");
         }
     }
-
 
     // get a color from JColorChooser:
     public void setColorFromChooser() {
@@ -377,45 +381,22 @@ public class ShapeDesignerFrame extends JFrame {
     public static double getS() {
         return s;
     }
+    public static int getXPos0() {
+        return xPos0;
+    }
+    public static int getYPos0() {
+        return yPos0;
+    }
     public static int getXPos() {
         return xPos;
     }
     public static int getYPos() {
         return yPos;
     }
-    public static int getDist(int x, int y, int x0, int y0) {
-        return (int)Math.sqrt((x - x0) * (x - x0) - (y - y0) * (y - y0));
-    }
 
     // ****************
     // HANDLER CLASSES:
     // ****************
-
-    private class MouseClickHandler extends MouseAdapter {
-        @Override
-        public void mouseClicked(MouseEvent event) {
-            xPos = event.getX();
-            yPos = event.getY();
-        }
-        public void mouseReleased(MouseEvent event) {
-            if (getSelectedComboBoxItem().equals("Circle")) {
-                r = getDist(xPos, yPos, event.getX(), event.getY());
-                setCircle();
-            }
-            if (getSelectedComboBoxItem().equals("Rectangle")) {
-                w = Math.abs(event.getX() - xPos);
-                h = Math.abs(event.getY() - yPos);
-                setRectangle();
-            }
-            if (getSelectedComboBoxItem().equals("Square")) {
-                int yDist = Math.abs(event.getY() - yPos);
-                int xDist = Math.abs(event.getX() - xPos);
-                s = (yDist >= xDist) ? yDist : xDist; // use whichever d is greater
-                setSquare();
-            }
-            repaint();
-        }
-    }
 
     // handles changes in fonts:
     private class FontHandler implements ActionListener {
@@ -468,7 +449,11 @@ public class ShapeDesignerFrame extends JFrame {
             if (getSelectedComboBoxItem().equals("Square")) {
                 setSquare();
             }
-            repaint();
+            resultTextArea.setText("");
+            xPos = 0;
+            xPos0 = 0;
+            yPos = 0;
+            yPos0 = 0;
         }          
     }
 

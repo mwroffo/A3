@@ -8,7 +8,7 @@ public abstract class GeometricObject extends Shape {
     // fields:
     private Color color;
     private boolean filled = false;
-    private int xPos, yPos;
+    private int xPos0, yPos0;
 
     // constructors:
     public GeometricObject() {
@@ -21,6 +21,19 @@ public abstract class GeometricObject extends Shape {
         super();
         this.color = color;
         this.filled = filled;
+    }
+
+    public int getXPos0() {
+        return xPos0;
+    }
+    public int getYPos0() {
+        return yPos0;
+    }
+    public void setXPos0(int x) {
+        xPos0 = x;
+    }
+    public void setYPos0(int y) {
+        yPos0 = y;
     }
 
     // set and get:
